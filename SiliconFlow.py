@@ -6,7 +6,7 @@ import requests  # 新增requests库用于API调用
 app = Flask(__name__)
 
 # 硅基流动API配置（需替换为你的实际信息）
-SILICONFLOW_API_KEY = "sk-ryjmxpcquxrpuxuotxevpksbgezsvbdmdieeopkingsmmuis"  # 替换为你的API密钥
+SILICONFLOW_API_KEY = ""  # 替换为你的API密钥
 SILICONFLOW_API_URL = "https://api.siliconflow.cn/v1/chat/completions"  # 硅基流动API端点
 MODEL_NAME = "deepseek-ai/DeepSeek-V3"  # 或硅基平台上的其他模型名称
 
