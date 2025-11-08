@@ -21,7 +21,7 @@
 
 第一种方式是使用ollama在本地部署qwen3：0.6b，运行ollama.py
 
-···python
+```python
 OLLAMA_API_URL = "http://localhost:11434/api/generate"  # Ollama 默认 API 地址
 MODEL_NAME = "qwen3:0.6b"  # 替换为您使用的 Ollama 模型名称
 
@@ -45,7 +45,7 @@ def predict_ollama(data):
             "stop": data.get("stop", []),
         }
     }
-···
+```
 
 ## 2.开源模型本地部署
 
