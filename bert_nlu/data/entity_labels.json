@@ -1,0 +1,36 @@
+{
+  "entity2id": {
+    "O": 0,
+    "B-disease": 1,
+    "I-disease": 2,
+    "B-symptom": 3,
+    "I-symptom": 4,
+    "B-drug": 5,
+    "I-drug": 6,
+    "B-food": 7,
+    "I-food": 8,
+    "B-check": 9,
+    "I-check": 10,
+    "B-department": 11,
+    "I-department": 12,
+    "B-producer": 13,
+    "I-producer": 14
+  },
+  "id2entity": {
+    "0": "O",
+    "1": "B-disease",
+    "2": "I-disease",
+    "3": "B-symptom",
+    "4": "I-symptom",
+    "5": "B-drug",
+    "6": "I-drug",
+    "7": "B-food",
+    "8": "I-food",
+    "9": "B-check",
+    "10": "I-check",
+    "11": "B-department",
+    "12": "I-department",
+    "13": "B-producer",
+    "14": "I-producer"
+  }
+}

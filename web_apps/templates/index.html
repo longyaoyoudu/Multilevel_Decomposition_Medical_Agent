@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医疗问答系统 - 双模型协作</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>📋 历史对话</h2>
+                <button class="new-chat-btn" onclick="startNewChat()">+ 新对话</button>
+            </div>
+            <div class="chat-list" id="chatList">
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="header">
+                <div class="header-title">
+                    <h1>🏥 医疗问答系统</h1>
+                    <span class="model-badge" id="modelBadge">双模型协作</span>
+                </div>
+                <div class="header-info" id="modelInfo">
+                    MiniMax 生成 + SiliconFlow 优化
+                </div>
+            </div>
+            
+            <div class="chat-area" id="chatArea">
+                <div class="welcome-message">
+                    <div class="welcome-icon">💊</div>
+                    <h2>您好，我是智能医疗助手</h2>
+                    <p>请输入您想咨询的医疗问题，我将为您提供专业解答。</p>
+                    <div class="example-questions">
+                        <div class="example-item" onclick="askExample('糖尿病有什么症状？')">糖尿病有什么症状？</div>
+                        <div class="example-item" onclick="askExample('高血压患者应该注意什么饮食？')">高血压患者应该注意什么饮食？</div>
+                        <div class="example-item" onclick="askExample('感冒应该吃什么药？')">感冒应该吃什么药？</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <textarea 
+                        id="userInput" 
+                        placeholder="请输入您的问题..." 
+                        rows="1"
+                        onkeydown="handleKeyDown(event)"
+                        oninput="autoResize(this)"
+                    ></textarea>
+                    <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+                <div class="input-hint">按 Enter 发送，Shift + Enter 换行</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text" id="loadingText">正在思考中...</div>
+        </div>
+    </div>
+
+    <script>
+        let chatHistory = [];
+        let currentChatId = null;
+        let chatSessions = {};
+        let isLoading = false;
+
+        function startNewChat() {
+            currentChatId = Date.now().toString();
+            chatSessions[currentChatId] = [];
+            chatHistory = [];
+            
+            document.getElementById('chatArea').innerHTML = `
+                <div class="welcome-message">
+                    <div class="welcome-icon">💊</div>
+                    <h2>您好，我是智能医疗助手</h2>
+                    <p>请输入您想咨询的医疗问题，我将为您提供专业解答。</p>
+                    <div class="example-questions">
+                        <div class="example-item" onclick="askExample('糖尿病有什么症状？')">糖尿病有什么症状？</div>
+                        <div class="example-item" onclick="askExample('高血压患者应该注意什么饮食？')">高血压患者应该注意什么饮食？</div>
+                        <div class="example-item" onclick="askExample('感冒应该吃什么药？')">感冒应该吃什么药？</div>
+                    </div>
+                </div>
+            `;
+            
+            updateChatList();
+        }
+
+        function askExample(question) {
+            document.getElementById('userInput').value = question;
+            sendMessage();
+        }
+
+        function updateChatList() {
+            const chatList = document.getElementById('chatList');
+            chatList.innerHTML = '';
+            
+            const sessionIds = Object.keys(chatSessions).sort((a, b) => b - a);
+            
+            if (sessionIds.length === 0) {
+                chatList.innerHTML = '<div class="empty-history">暂无历史对话</div>';
+                return;
+            }
+            
+            sessionIds.forEach((id, index) => {
+                const messages = chatSessions[id];
+                const firstMessage = messages.length > 0 ? messages[0].content : '新对话';
+                const isActive = id === currentChatId;
+                
+                const chatItem = document.createElement('div');
+                chatItem.className = `chat-item ${isActive ? 'active' : ''}`;
+                chatItem.innerHTML = `
+                    <div class="chat-item-title">${firstMessage.substring(0, 20)}${firstMessage.length > 20 ? '...' : ''}</div>
+                    <div class="chat-item-time">${formatTime(id)}</div>
+                `;
+                chatItem.onclick = () => loadChat(id);
+                chatList.appendChild(chatItem);
+            });
+        }
+
+        function formatTime(timestamp) {
+            const date = new Date(parseInt(timestamp));
+            const now = new Date();
+            const diffHours = (now - date) / (1000 * 60 * 60);
+            
+            if (diffHours < 24) {
+                return date.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+            } else if (diffHours < 48) {
+                return '昨天';
+            } else {
+                return date.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
+            }
+        }
+
+        function loadChat(chatId) {
+            currentChatId = chatId;
+            chatHistory = chatSessions[chatId] || [];
+            
+            const chatArea = document.getElementById('chatArea');
+            chatArea.innerHTML = '';
+            
+            chatHistory.forEach(msg => {
+                addMessageToUI(msg.role, msg.content, false);
+            });
+            
+            updateChatList();
+            scrollToBottom();
+        }
+
+        function addMessageToUI(role, content, animate = true) {
+            const chatArea = document.getElementById('chatArea');
+            
+            const welcomeMessage = chatArea.querySelector('.welcome-message');
+            if (welcomeMessage) {
+                welcomeMessage.remove();
+            }
+            
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${role === 'user' ? 'user-message' : 'bot-message'}`;
+            
+            const avatar = role === 'user' ? '👤' : '👨‍⚕️';
+            const name = role === 'user' ? '您' : '智能医生';
+            
+            messageDiv.innerHTML = `
+                <div class="message-avatar">${avatar}</div>
+                <div class="message-content">
+                    <div class="message-name">${name}</div>
+                    <div class="message-text">${formatContent(content)}</div>
+                </div>
+            `;
+            
+            chatArea.appendChild(messageDiv);
+            
+            if (animate) {
+                messageDiv.style.animation = 'fadeIn 0.3s ease';
+            }
+            
+            scrollToBottom();
+        }
+
+        function formatContent(content) {
+            return content
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/\n/g, '<br>')
+                .replace(/^- (.*)$/gm, '<li>$1</li>');
+        }
+
+        function scrollToBottom() {
+            const chatArea = document.getElementById('chatArea');
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        function showLoading(text = '正在思考中...') {
+            document.getElementById('loadingText').textContent = text;
+            document.getElementById('loadingOverlay').style.display = 'flex';
+            isLoading = true;
+            document.getElementById('sendBtn').disabled = true;
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingOverlay').style.display = 'none';
+            isLoading = false;
+            document.getElementById('sendBtn').disabled = false;
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('userInput');
+            const message = input.value.trim();
+            
+            if (!message || isLoading) return;
+            
+            if (!currentChatId) {
+                currentChatId = Date.now().toString();
+                chatSessions[currentChatId] = [];
+            }
+            
+            input.value = '';
+            input.style.height = 'auto';
+            
+            addMessageToUI('user', message);
+            chatHistory.push({ role: 'user', content: message });
+            chatSessions[currentChatId] = [...chatHistory];
+            
+            showLoading('双模型协作处理中...');
+            
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        history: chatHistory
+                    })
+                });
+                
+                const data = await response.json();
+                
+                hideLoading();
+                
+                if (data.status === 'success') {
+                    const answer = data.output[0];
+                    addMessageToUI('assistant', answer);
+                    chatHistory.push({ role: 'assistant', content: answer });
+                    chatSessions[currentChatId] = [...chatHistory];
+                    updateChatList();
+                } else {
+                    addMessageToUI('assistant', `抱歉，处理出错：${data.error}`);
+                }
+            } catch (error) {
+                hideLoading();
+                addMessageToUI('assistant', '抱歉，网络连接失败，请稍后重试。');
+                console.error('Error:', error);
+            }
+        }
+
+        function handleKeyDown(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        }
+
+        function autoResize(textarea) {
+            textarea.style.height = 'auto';
+            textarea.style.height = Math.min(textarea.scrollHeight, 120) + 'px';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            updateChatList();
+        });
+    </script>
+</body>
+</html>

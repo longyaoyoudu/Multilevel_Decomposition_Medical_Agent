@@ -1,0 +1,53 @@
+# Secrets - NEVER commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ML / large artifacts (regenerable, not source)
+models/
+vector_db/
+*.pt
+*.pkl
+*.bin
+*.onnx
+*.h5
+*.safetensors
+*.gguf
+
+# Build / test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
