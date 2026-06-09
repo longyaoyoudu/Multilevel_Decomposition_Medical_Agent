@@ -1,0 +1,3842 @@
+[
+  {
+    "text": "如何避免得肺转移性肿瘤？",
+    "intent": "disease_prevent",
+    "entity": "肺转移性肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "甲状腺功能亢进性肝病不应该吃什么？",
+    "intent": "disease_not_food",
+    "entity": "甲状腺功能亢进性肝病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "儿童遗粪症怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "儿童遗粪症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "脊膜瘤怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "脊膜瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "光敏性皮炎会伴随什么疾病？",
+    "intent": "disease_acompany",
+    "entity": "光敏性皮炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}可能是什么病？",
+    "intent": "symptom_disease",
+    "entity": "脉管炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿无脾综合征有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "小儿无脾综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿戈谢病的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "小儿戈谢病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "闭合性脑外伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "藏毛性疾病怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "藏毛性疾病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "镇痛剂肾病应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "镇痛剂肾病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "单发性毛鞘瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "子宫颈平滑肌瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "纤维肌痛症的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "纤维肌痛症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肩胛背神经卡压症的表征有哪些？",
+    "intent": "disease_symptom",
+    "entity": "肩胛背神经卡压症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "红外线伤治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "红外线伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "眼球后退综合征会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "眼球后退综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿先天性肝囊肿治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "小儿先天性肝囊肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "中毒性红斑",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下谵妄",
+    "intent": "disease_desc",
+    "entity": "谵妄",
+    "entity_type": "disease"
+  },
+  {
+    "text": "穿凿脓肿性头部毛囊炎及毛囊周围炎吃什么药？",
+    "intent": "disease_drug",
+    "entity": "穿凿脓肿性头部毛囊炎及毛囊周围炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "Maffucci综合征的表征有哪些？",
+    "intent": "disease_symptom",
+    "entity": "Maffucci综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得小儿腺病毒性肺炎？",
+    "intent": "disease_cause",
+    "entity": "小儿腺病毒性肺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "更年期综合征要检查什么？",
+    "intent": "disease_check",
+    "entity": "更年期综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下妊娠合并肺栓塞",
+    "intent": "disease_desc",
+    "entity": "妊娠合并肺栓塞",
+    "entity_type": "disease"
+  },
+  {
+    "text": "阴囊炎性癌要检查什么？",
+    "intent": "disease_check",
+    "entity": "阴囊炎性癌",
+    "entity_type": "disease"
+  },
+  {
+    "text": "湿阻的症状是什么？",
+    "intent": "disease_symptom",
+    "entity": "湿阻",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下遗传性运动失调性多发性神经炎",
+    "intent": "disease_desc",
+    "entity": "遗传性运动失调性多发性神经炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "梭形细胞脂肪瘤要治疗多久？",
+    "intent": "disease_lasttime",
+    "entity": "梭形细胞脂肪瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "血气胸多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "血气胸",
+    "entity_type": "disease"
+  },
+  {
+    "text": "结核性角膜病变会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "结核性角膜病变",
+    "entity_type": "disease"
+  },
+  {
+    "text": "拉休尤-格拉哈姆-利特尔综合征吃什么药？",
+    "intent": "disease_drug",
+    "entity": "拉休尤-格拉哈姆-利特尔综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "胃黏膜脱垂",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得静脉炎？",
+    "intent": "disease_cause",
+    "entity": "静脉炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肥大性骨关节病的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "肥大性骨关节病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胆肠内引流术后内疝的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "胆肠内引流术后内疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "先天性X因子缺乏",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "毒瘾",
+    "entity_type": "disease"
+  },
+  {
+    "text": "气胀的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "气胀",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "肾淀粉样变性",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了喉气管瘢痕性狭窄要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "喉气管瘢痕性狭窄",
+    "entity_type": "disease"
+  },
+  {
+    "text": "淋巴结核有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "淋巴结核",
+    "entity_type": "disease"
+  },
+  {
+    "text": "接触性皮炎要检查什么？",
+    "intent": "disease_check",
+    "entity": "接触性皮炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得坏死性脉管炎？",
+    "intent": "disease_cause",
+    "entity": "坏死性脉管炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得肠粘连？",
+    "intent": "disease_cause",
+    "entity": "肠粘连",
+    "entity_type": "disease"
+  },
+  {
+    "text": "痹证宜吃什么食物？",
+    "intent": "disease_do_food",
+    "entity": "痹证",
+    "entity_type": "disease"
+  },
+  {
+    "text": "CD30阳性皮肤T细胞淋巴瘤吃什么药？",
+    "intent": "disease_drug",
+    "entity": "CD30阳性皮肤T细胞淋巴瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "酒精性脂肪肝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "空鞍综合征的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "空鞍综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "滑膜肉瘤治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "滑膜肉瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "心室扑动和心室颤动的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "心室扑动和心室颤动",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性淋巴结炎用什么药？",
+    "intent": "disease_drug",
+    "entity": "急性淋巴结炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "酒中毒性小脑变性的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "酒中毒性小脑变性",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "战壕热",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "尘螨过敏性哮喘",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿红白血病怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "小儿红白血病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "平滑肌错构瘤忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "平滑肌错构瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "体癣用什么药？",
+    "intent": "disease_drug",
+    "entity": "体癣",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "外阴血管外皮细胞瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "结石性胆囊炎的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "结石性胆囊炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "著痹",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿牙本质生长不全综合征有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "小儿牙本质生长不全综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "尿道综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "骨的原发性淋巴瘤是什么？",
+    "intent": "disease_desc",
+    "entity": "骨的原发性淋巴瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "风湿性血管炎的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "风湿性血管炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "积滞应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "积滞",
+    "entity_type": "disease"
+  },
+  {
+    "text": "酒精性脂肪肝吃什么药？",
+    "intent": "disease_drug",
+    "entity": "酒精性脂肪肝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "卡普兰综合征怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "卡普兰综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性妄想发作会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "急性妄想发作",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}可能是什么病？",
+    "intent": "symptom_disease",
+    "entity": "鼠疫耶尔森菌肺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "复发性疱疹的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "复发性疱疹",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得神经官能性表皮剥脱？",
+    "intent": "disease_easyget",
+    "entity": "神经官能性表皮剥脱",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下心源性休克",
+    "intent": "disease_desc",
+    "entity": "心源性休克",
+    "entity_type": "disease"
+  },
+  {
+    "text": "外伤相关性青光眼用什么药？",
+    "intent": "disease_drug",
+    "entity": "外伤相关性青光眼",
+    "entity_type": "disease"
+  },
+  {
+    "text": "甲状腺血管瘤的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "甲状腺血管瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "泪囊炎的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "泪囊炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了胫腓下联合前部分离要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "胫腓下联合前部分离",
+    "entity_type": "disease"
+  },
+  {
+    "text": "有{symptom}的症状是什么病？",
+    "intent": "symptom_disease",
+    "entity": "艾滋病人的急性阑尾炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "腺性唇炎忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "腺性唇炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "二度房室传导阻滞要检查什么？",
+    "intent": "disease_check",
+    "entity": "二度房室传导阻滞",
+    "entity_type": "disease"
+  },
+  {
+    "text": "外耳湿疹的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "外耳湿疹",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性女阴溃疡的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "急性女阴溃疡",
+    "entity_type": "disease"
+  },
+  {
+    "text": "目劄病治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "目劄病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下睡眠呼吸暂停综合征",
+    "intent": "disease_desc",
+    "entity": "睡眠呼吸暂停综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "基底节血肿吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "基底节血肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "结、直肠黑变病能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "结、直肠黑变病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性上呼吸道感染是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "急性上呼吸道感染",
+    "entity_type": "disease"
+  },
+  {
+    "text": "口腔颌面部毛细管型淋巴管瘤的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "口腔颌面部毛细管型淋巴管瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "舌下间隙感染的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "舌下间隙感染",
+    "entity_type": "disease"
+  },
+  {
+    "text": "慢性呼吸衰竭会有什么表现？",
+    "intent": "disease_symptom",
+    "entity": "慢性呼吸衰竭",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "休止期脱发",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "溶血尿毒症综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "卵巢冠囊肿的食谱是什么？",
+    "intent": "disease_do_food",
+    "entity": "卵巢冠囊肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿细菌性痢疾治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "小儿细菌性痢疾",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性脓肿的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "急性脓肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "向颈段脊髓供血的根动脉缺血症候群的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "向颈段脊髓供血的根动脉缺血症候群",
+    "entity_type": "disease"
+  },
+  {
+    "text": "不动杆菌肺炎的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "不动杆菌肺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胃切除后吸收不良综合征的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "胃切除后吸收不良综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "餐后血糖过低症会有什么表现？",
+    "intent": "disease_symptom",
+    "entity": "餐后血糖过低症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "血清病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "水、电解质紊乱伴发的精神障碍怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "水、电解质紊乱伴发的精神障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "摩擦黑变病的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "摩擦黑变病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "鲜红斑痣会有什么表现？",
+    "intent": "disease_symptom",
+    "entity": "鲜红斑痣",
+    "entity_type": "disease"
+  },
+  {
+    "text": "物理性皮肤病有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "物理性皮肤病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "复发性多软骨炎性巩膜炎的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "复发性多软骨炎性巩膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "僵汜会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "僵汜",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得微小病变型肾病？",
+    "intent": "disease_cause",
+    "entity": "微小病变型肾病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "眼眶嗜酸性肉芽肿应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "眼眶嗜酸性肉芽肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "颅内静脉窦血栓形成怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "颅内静脉窦血栓形成",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "小儿豹皮综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "腹膜后纤维化的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "腹膜后纤维化",
+    "entity_type": "disease"
+  },
+  {
+    "text": "鼠咬伤是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "鼠咬伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "肺部粪类圆线虫病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "泪腺囊样腺癌的症状是什么？",
+    "intent": "disease_symptom",
+    "entity": "泪腺囊样腺癌",
+    "entity_type": "disease"
+  },
+  {
+    "text": "吉特林综合征能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "吉特林综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "溃疡病急性穿孔吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "溃疡病急性穿孔",
+    "entity_type": "disease"
+  },
+  {
+    "text": "子宫腺肌病用什么药？",
+    "intent": "disease_drug",
+    "entity": "子宫腺肌病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "单纯疱疹病毒感染症用什么药？",
+    "intent": "disease_drug",
+    "entity": "单纯疱疹病毒感染症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "玫瑰糠疹要检查什么？",
+    "intent": "disease_check",
+    "entity": "玫瑰糠疹",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "腹股沟淋巴结炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肾错构瘤的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "肾错构瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得完全性大动脉错位？",
+    "intent": "disease_cause",
+    "entity": "完全性大动脉错位",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下小儿限制型心肌病",
+    "intent": "disease_desc",
+    "entity": "小儿限制型心肌病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "上颌窦癌能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "上颌窦癌",
+    "entity_type": "disease"
+  },
+  {
+    "text": "传染性单核细胞增多症的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "传染性单核细胞增多症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "低血糖症吃什么药？",
+    "intent": "disease_drug",
+    "entity": "低血糖症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得小儿糖尿病？",
+    "intent": "disease_prevent",
+    "entity": "小儿糖尿病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "红外线伤治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "红外线伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "肺静脉异位引流",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "泌乳素瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿尿道下裂要检查什么？",
+    "intent": "disease_check",
+    "entity": "小儿尿道下裂",
+    "entity_type": "disease"
+  },
+  {
+    "text": "哪些人容易得副肿瘤性斜视性眼肌阵挛-肌阵挛？",
+    "intent": "disease_easyget",
+    "entity": "副肿瘤性斜视性眼肌阵挛-肌阵挛",
+    "entity_type": "disease"
+  },
+  {
+    "text": "僵人综合征的症状是什么？",
+    "intent": "disease_symptom",
+    "entity": "僵人综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "蛲虫病有什么症状？",
+    "intent": "disease_symptom",
+    "entity": "蛲虫病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "绝经期尿失禁要检查什么？",
+    "intent": "disease_check",
+    "entity": "绝经期尿失禁",
+    "entity_type": "disease"
+  },
+  {
+    "text": "帕金森病性痴呆治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "帕金森病性痴呆",
+    "entity_type": "disease"
+  },
+  {
+    "text": "颞叶癫痫的表征有哪些？",
+    "intent": "disease_symptom",
+    "entity": "颞叶癫痫",
+    "entity_type": "disease"
+  },
+  {
+    "text": "自身免疫性肝炎的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "自身免疫性肝炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "非典型麻疹综合征会伴随什么疾病？",
+    "intent": "disease_acompany",
+    "entity": "非典型麻疹综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "强迫性障碍不应该吃什么？",
+    "intent": "disease_not_food",
+    "entity": "强迫性障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得聤耳？",
+    "intent": "disease_prevent",
+    "entity": "聤耳",
+    "entity_type": "disease"
+  },
+  {
+    "text": "癔病性昏厥有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "癔病性昏厥",
+    "entity_type": "disease"
+  },
+  {
+    "text": "蛔虫病有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "蛔虫病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "先天性拇内翻会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "先天性拇内翻",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胃肠积液的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "胃肠积液",
+    "entity_type": "disease"
+  },
+  {
+    "text": "妊娠合并弓形虫病如何治疗？",
+    "intent": "disease_cureway",
+    "entity": "妊娠合并弓形虫病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "股骨大粗隆结核的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "股骨大粗隆结核",
+    "entity_type": "disease"
+  },
+  {
+    "text": "环状胰腺的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "环状胰腺",
+    "entity_type": "disease"
+  },
+  {
+    "text": "寻常疣要检查什么？",
+    "intent": "disease_check",
+    "entity": "寻常疣",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了小儿眼-脑-肾综合征要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "小儿眼-脑-肾综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了假性醛固酮减少症会怎么样？",
+    "intent": "disease_symptom",
+    "entity": "假性醛固酮减少症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "网络成瘾应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "网络成瘾",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "天柱倒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "性高潮障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "百日咳",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "喉异物",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "肺-胸膜阿米巴病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "新生儿肝炎综合征的食谱是什么？",
+    "intent": "disease_do_food",
+    "entity": "新生儿肝炎综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "放线菌病怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "放线菌病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下胃类癌瘤",
+    "intent": "disease_desc",
+    "entity": "胃类癌瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "先天性肥厚性幽门狭窄",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "喉乳头状瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胎膜早破怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "胎膜早破",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "软产道异常性难产",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了肥大性骨关节病会怎么样？",
+    "intent": "disease_symptom",
+    "entity": "肥大性骨关节病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿不对称身材-矮小-性发育异常综合征治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "小儿不对称身材-矮小-性发育异常综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "锁喉毒吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "锁喉毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿淋巴细胞间质性肺炎要检查什么？",
+    "intent": "disease_check",
+    "entity": "小儿淋巴细胞间质性肺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿爱德华兹综合征治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "小儿爱德华兹综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "鼻瓣区狭窄怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "鼻瓣区狭窄",
+    "entity_type": "disease"
+  },
+  {
+    "text": "有{symptom}的症状是什么病？",
+    "intent": "symptom_disease",
+    "entity": "早孕反应",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性肠系膜淋巴结炎怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "急性肠系膜淋巴结炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "鼻疽假单胞菌肺炎要治疗多久？",
+    "intent": "disease_lasttime",
+    "entity": "鼻疽假单胞菌肺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "铁尘肺治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "铁尘肺",
+    "entity_type": "disease"
+  },
+  {
+    "text": "膜性肾病会伴随什么疾病？",
+    "intent": "disease_acompany",
+    "entity": "膜性肾病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "眼内转移性肿瘤会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "眼内转移性肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "小儿硬脑膜外血肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "风轮赤豆忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "风轮赤豆",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得葡萄状肉瘤？",
+    "intent": "disease_easyget",
+    "entity": "葡萄状肉瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿慢性肾功能衰竭有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "小儿慢性肾功能衰竭",
+    "entity_type": "disease"
+  },
+  {
+    "text": "哪些人容易得眼部猪囊尾蚴病？",
+    "intent": "disease_easyget",
+    "entity": "眼部猪囊尾蚴病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "外阴象皮肿不应该吃什么？",
+    "intent": "disease_not_food",
+    "entity": "外阴象皮肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "煤炭工尘肺",
+    "entity_type": "disease"
+  },
+  {
+    "text": "老年人慢性疾病性贫血忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "老年人慢性疾病性贫血",
+    "entity_type": "disease"
+  },
+  {
+    "text": "五更泻要治疗多久？",
+    "intent": "disease_lasttime",
+    "entity": "五更泻",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "卵泡发育不良",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胃肠道功能紊乱是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "胃肠道功能紊乱",
+    "entity_type": "disease"
+  },
+  {
+    "text": "纤维肉瘤不应该吃什么？",
+    "intent": "disease_not_food",
+    "entity": "纤维肉瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "神思间病的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "神思间病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "小儿乳糜泻",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得肩锁关节脱位？",
+    "intent": "disease_easyget",
+    "entity": "肩锁关节脱位",
+    "entity_type": "disease"
+  },
+  {
+    "text": "多毛状小阴唇如何治疗？",
+    "intent": "disease_cureway",
+    "entity": "多毛状小阴唇",
+    "entity_type": "disease"
+  },
+  {
+    "text": "黄疸的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "黄疸",
+    "entity_type": "disease"
+  },
+  {
+    "text": "原发性高脂蛋白血症与黄瘤增生病的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "原发性高脂蛋白血症与黄瘤增生病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "吉尔伯特综合征的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "吉尔伯特综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得蛋白丧失胃肠综合征？",
+    "intent": "disease_prevent",
+    "entity": "蛋白丧失胃肠综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "人禽流行性感冒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "经膈肌肋间疝会伴随什么疾病？",
+    "intent": "disease_acompany",
+    "entity": "经膈肌肋间疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "冠状动脉终止异常治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "冠状动脉终止异常",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了位置性眩晕要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "位置性眩晕",
+    "entity_type": "disease"
+  },
+  {
+    "text": "高弓足用什么药？",
+    "intent": "disease_drug",
+    "entity": "高弓足",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得胸痹心痛？",
+    "intent": "disease_cause",
+    "entity": "胸痹心痛",
+    "entity_type": "disease"
+  },
+  {
+    "text": "阴冷宜吃什么食物？",
+    "intent": "disease_do_food",
+    "entity": "阴冷",
+    "entity_type": "disease"
+  },
+  {
+    "text": "乳泣是什么？",
+    "intent": "disease_desc",
+    "entity": "乳泣",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得绝经后卵巢恶性肿瘤？",
+    "intent": "disease_prevent",
+    "entity": "绝经后卵巢恶性肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "先天性长结肠的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "先天性长结肠",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下维生素B6依赖综合征",
+    "intent": "disease_desc",
+    "entity": "维生素B6依赖综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿神经白塞综合征吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "小儿神经白塞综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "骨淋巴管瘤能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "骨淋巴管瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "颈椎后纵韧带骨化症治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "颈椎后纵韧带骨化症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "包涵囊肿要检查什么？",
+    "intent": "disease_check",
+    "entity": "包涵囊肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "脓肿忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "脓肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性妄想发作不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "急性妄想发作",
+    "entity_type": "disease"
+  },
+  {
+    "text": "上皮样血管内皮细胞瘤需要做什么检查？",
+    "intent": "disease_check",
+    "entity": "上皮样血管内皮细胞瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "肝脏疾病所致贫血",
+    "entity_type": "disease"
+  },
+  {
+    "text": "里尔黑变病的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "里尔黑变病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿病态窦房结综合征的表征有哪些？",
+    "intent": "disease_symptom",
+    "entity": "小儿病态窦房结综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "木村网状肢端色素沉着",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得链球菌性咽炎？",
+    "intent": "disease_prevent",
+    "entity": "链球菌性咽炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "眼病多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "眼病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "恶性高血压不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "恶性高血压",
+    "entity_type": "disease"
+  },
+  {
+    "text": "复发性多软骨炎性巩膜炎宜吃什么食物？",
+    "intent": "disease_do_food",
+    "entity": "复发性多软骨炎性巩膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "斑疹伤寒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "支气管炎忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "支气管炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "多发性骨骺发育异常怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "多发性骨骺发育异常",
+    "entity_type": "disease"
+  },
+  {
+    "text": "疣的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "疣",
+    "entity_type": "disease"
+  },
+  {
+    "text": "盲肠旁疝的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "盲肠旁疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "卵巢混合性生殖细胞-性索间质肿瘤治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "卵巢混合性生殖细胞-性索间质肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "垂体性矮小病应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "垂体性矮小病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "特发性非硬化性门脉高压综合征治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "特发性非硬化性门脉高压综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下脊髓内出血",
+    "intent": "disease_desc",
+    "entity": "脊髓内出血",
+    "entity_type": "disease"
+  },
+  {
+    "text": "骶管囊肿要治疗多久？",
+    "intent": "disease_lasttime",
+    "entity": "骶管囊肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "干燥综合征神经系统损害应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "干燥综合征神经系统损害",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "膀胱上内疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "脾脏原发性恶性肿瘤是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "脾脏原发性恶性肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "焦虑症吃什么药？",
+    "intent": "disease_drug",
+    "entity": "焦虑症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下小儿非霍奇金淋巴瘤",
+    "intent": "disease_desc",
+    "entity": "小儿非霍奇金淋巴瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "气瘿应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "气瘿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "复发性卵巢恶性肿瘤有什么症状？",
+    "intent": "disease_symptom",
+    "entity": "复发性卵巢恶性肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下急性颌下腺炎",
+    "intent": "disease_desc",
+    "entity": "急性颌下腺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "眼眶淋巴管瘤的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "眼眶淋巴管瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "棘球蚴病用什么药？",
+    "intent": "disease_drug",
+    "entity": "棘球蚴病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防外阴基底细胞癌？",
+    "intent": "disease_prevent",
+    "entity": "外阴基底细胞癌",
+    "entity_type": "disease"
+  },
+  {
+    "text": "闭经溢乳综合征治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "闭经溢乳综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿暑温治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "小儿暑温",
+    "entity_type": "disease"
+  },
+  {
+    "text": "弥漫性特发性骨肥厚的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "弥漫性特发性骨肥厚",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}可能是什么病？",
+    "intent": "symptom_disease",
+    "entity": "松果体细胞瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "产后虚脱应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "产后虚脱",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "老年人代谢性酸中毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "有{symptom}的症状是什么病？",
+    "intent": "symptom_disease",
+    "entity": "移行脊椎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "布氏菌肺炎忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "布氏菌肺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下包涵体肌炎与遗传性包涵体肌病",
+    "intent": "disease_desc",
+    "entity": "包涵体肌炎与遗传性包涵体肌病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得海绵状淋巴管瘤？",
+    "intent": "disease_easyget",
+    "entity": "海绵状淋巴管瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "维生素C缺乏病的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "维生素C缺乏病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "老年人风湿性心脏病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿血管免疫母细胞淋巴结病怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "小儿血管免疫母细胞淋巴结病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "老年癌症病人的急性感染能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "老年癌症病人的急性感染",
+    "entity_type": "disease"
+  },
+  {
+    "text": "阴囊炎不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "阴囊炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿囊性纤维性变的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "小儿囊性纤维性变",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胫后神经损伤需要做什么检查？",
+    "intent": "disease_check",
+    "entity": "胫后神经损伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "系统性红斑狼疮性巩膜炎能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "系统性红斑狼疮性巩膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "甲状腺肿瘤有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "甲状腺肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "鼻疖有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "鼻疖",
+    "entity_type": "disease"
+  },
+  {
+    "text": "恶性青光眼的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "恶性青光眼",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得毛囊性黏蛋白病？",
+    "intent": "disease_cause",
+    "entity": "毛囊性黏蛋白病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得先天性巨大色素痣？",
+    "intent": "disease_cause",
+    "entity": "先天性巨大色素痣",
+    "entity_type": "disease"
+  },
+  {
+    "text": "慢性子宫内膜炎的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "慢性子宫内膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "小儿脂肪吸收不良",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿精神发育迟缓的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "小儿精神发育迟缓",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下麻痹性睑外翻",
+    "intent": "disease_desc",
+    "entity": "麻痹性睑外翻",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "风寒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性粒细胞缺乏的症状是什么？",
+    "intent": "disease_symptom",
+    "entity": "急性粒细胞缺乏",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿软骨外胚层发育不全综合征治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "小儿软骨外胚层发育不全综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "产科播散性血管内凝血",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防髋臼骨折？",
+    "intent": "disease_prevent",
+    "entity": "髋臼骨折",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿脓窠疮治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "小儿脓窠疮",
+    "entity_type": "disease"
+  },
+  {
+    "text": "耳聋会有什么表现？",
+    "intent": "disease_symptom",
+    "entity": "耳聋",
+    "entity_type": "disease"
+  },
+  {
+    "text": "虚劳的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "虚劳",
+    "entity_type": "disease"
+  },
+  {
+    "text": "角膜擦伤忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "角膜擦伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "噪声病应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "噪声病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "心室静止需要做什么检查？",
+    "intent": "disease_check",
+    "entity": "心室静止",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了铍及其化合物引起的皮肤病会怎么样？",
+    "intent": "disease_symptom",
+    "entity": "铍及其化合物引起的皮肤病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "子宫内膜结核的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "子宫内膜结核",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得眼眶横纹肌肉瘤？",
+    "intent": "disease_easyget",
+    "entity": "眼眶横纹肌肉瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "妊娠合并卵巢肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "先天性冠状动脉瘘的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "先天性冠状动脉瘘",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "新生儿青紫",
+    "entity_type": "disease"
+  },
+  {
+    "text": "军团病是什么？",
+    "intent": "disease_desc",
+    "entity": "军团病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "哪些人容易得原发性血小板增多症？",
+    "intent": "disease_easyget",
+    "entity": "原发性血小板增多症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "原发性下肢静脉瓣膜关闭不全如何治疗？",
+    "intent": "disease_cureway",
+    "entity": "原发性下肢静脉瓣膜关闭不全",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得品行障碍？",
+    "intent": "disease_cause",
+    "entity": "品行障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "黏脂贮积症Ⅱ型应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "黏脂贮积症Ⅱ型",
+    "entity_type": "disease"
+  },
+  {
+    "text": "失语症的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "失语症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "哮喘性肺嗜酸粒细胞浸润症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "甲沟炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "食管外压和牵拉",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "淋巴细胞脉络丛脑膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肥疮吃什么药？",
+    "intent": "disease_drug",
+    "entity": "肥疮",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得肥厚型梗阻性心肌病？",
+    "intent": "disease_cause",
+    "entity": "肥厚型梗阻性心肌病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "先天性泌尿系畸形的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "先天性泌尿系畸形",
+    "entity_type": "disease"
+  },
+  {
+    "text": "黑头粉刺痣宜吃什么食物？",
+    "intent": "disease_do_food",
+    "entity": "黑头粉刺痣",
+    "entity_type": "disease"
+  },
+  {
+    "text": "暴发性肝功能衰竭能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "暴发性肝功能衰竭",
+    "entity_type": "disease"
+  },
+  {
+    "text": "老年人结肠憩室吃什么药？",
+    "intent": "disease_drug",
+    "entity": "老年人结肠憩室",
+    "entity_type": "disease"
+  },
+  {
+    "text": "穿腹膜疝的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "穿腹膜疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "皮肤卟啉病的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "皮肤卟啉病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "暴发性痤疮",
+    "entity_type": "disease"
+  },
+  {
+    "text": "老年期抑郁症吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "老年期抑郁症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿药物性肾损害的食谱是什么？",
+    "intent": "disease_do_food",
+    "entity": "小儿药物性肾损害",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胫前黏液水肿是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "胫前黏液水肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了末梢神经炎要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "末梢神经炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "吻合口溃疡有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "吻合口溃疡",
+    "entity_type": "disease"
+  },
+  {
+    "text": "视盘水肿的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "视盘水肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿巨大血小板综合征的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "小儿巨大血小板综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "女性尿瘘要治疗多久？",
+    "intent": "disease_lasttime",
+    "entity": "女性尿瘘",
+    "entity_type": "disease"
+  },
+  {
+    "text": "腰骶部脂肪疝应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "腰骶部脂肪疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "有{symptom}的症状是什么病？",
+    "intent": "symptom_disease",
+    "entity": "纹状体黑质变性",
+    "entity_type": "disease"
+  },
+  {
+    "text": "先天性食管重复吃什么药？",
+    "intent": "disease_drug",
+    "entity": "先天性食管重复",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "小儿发作性舞蹈手足徐动症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "持续性交接区折返性心动过速",
+    "entity_type": "disease"
+  },
+  {
+    "text": "呼吸道结核病的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "呼吸道结核病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得听小骨创伤？",
+    "intent": "disease_cause",
+    "entity": "听小骨创伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得小儿铜缺乏症综合征？",
+    "intent": "disease_prevent",
+    "entity": "小儿铜缺乏症综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得亚健康？",
+    "intent": "disease_cause",
+    "entity": "亚健康",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "单纯红细胞再障性贫血",
+    "entity_type": "disease"
+  },
+  {
+    "text": "戈谢病的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "戈谢病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "视网膜色素变性",
+    "entity_type": "disease"
+  },
+  {
+    "text": "滋养细胞肿瘤的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "滋养细胞肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "坏死性结节病样肉芽肿病多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "坏死性结节病样肉芽肿病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "皮质性遗忘症吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "皮质性遗忘症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "痰浊头痛的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "痰浊头痛",
+    "entity_type": "disease"
+  },
+  {
+    "text": "网膜原发性节段性梗死用什么药？",
+    "intent": "disease_drug",
+    "entity": "网膜原发性节段性梗死",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肢萎是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "肢萎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "脾脓肿的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "脾脓肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得乳头皲裂？",
+    "intent": "disease_prevent",
+    "entity": "乳头皲裂",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿家族性非溶血性黄疸综合征的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "小儿家族性非溶血性黄疸综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "光泽苔藓应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "光泽苔藓",
+    "entity_type": "disease"
+  },
+  {
+    "text": "哪些人容易得咽部神经鞘膜瘤？",
+    "intent": "disease_easyget",
+    "entity": "咽部神经鞘膜瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "巴瑞特综合征如何治疗？",
+    "intent": "disease_cureway",
+    "entity": "巴瑞特综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性胃炎有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "急性胃炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "抗生素诱发的肠炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防咽麻痹？",
+    "intent": "disease_prevent",
+    "entity": "咽麻痹",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了甲状腺功能亢进性肝病要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "甲状腺功能亢进性肝病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "喉插管损伤的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "喉插管损伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "淀粉样变性周围神经病怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "淀粉样变性周围神经病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得老年人肝性脑病？",
+    "intent": "disease_prevent",
+    "entity": "老年人肝性脑病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "充血性脾肿大有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "充血性脾肿大",
+    "entity_type": "disease"
+  },
+  {
+    "text": "婴幼儿上颌骨骨髓炎的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "婴幼儿上颌骨骨髓炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "维生素A缺乏病多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "维生素A缺乏病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "动脉导管未闭多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "动脉导管未闭",
+    "entity_type": "disease"
+  },
+  {
+    "text": "全身脂肪代谢障碍的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "全身脂肪代谢障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "成人骨坏死要检查什么？",
+    "intent": "disease_check",
+    "entity": "成人骨坏死",
+    "entity_type": "disease"
+  },
+  {
+    "text": "铁中毒需要做什么检查？",
+    "intent": "disease_check",
+    "entity": "铁中毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "哪些人容易得白睛溢血？",
+    "intent": "disease_easyget",
+    "entity": "白睛溢血",
+    "entity_type": "disease"
+  },
+  {
+    "text": "新生儿败血症的表征有哪些？",
+    "intent": "disease_symptom",
+    "entity": "新生儿败血症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "有{symptom}的症状是什么病？",
+    "intent": "symptom_disease",
+    "entity": "麦胶性肠病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胸膜炎吃什么药？",
+    "intent": "disease_drug",
+    "entity": "胸膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "重症院内获得性肺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "皮肤疣应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "皮肤疣",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防肾功能不全？",
+    "intent": "disease_prevent",
+    "entity": "肾功能不全",
+    "entity_type": "disease"
+  },
+  {
+    "text": "婴儿脐疝应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "婴儿脐疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "非器质性性欲减退的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "非器质性性欲减退",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得腺性唇炎？",
+    "intent": "disease_easyget",
+    "entity": "腺性唇炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "血吸虫肠病会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "血吸虫肠病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得胃恶性淋巴瘤？",
+    "intent": "disease_cause",
+    "entity": "胃恶性淋巴瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "小儿尿路感染",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胰岛功能性β细胞瘤应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "胰岛功能性β细胞瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "宫腔积脓应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "宫腔积脓",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得嗜酸细胞增多性非变态反应性鼻炎？",
+    "intent": "disease_easyget",
+    "entity": "嗜酸细胞增多性非变态反应性鼻炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "变形性骨炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "弥漫性掌跖角化病怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "弥漫性掌跖角化病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了喉插管损伤会怎么样？",
+    "intent": "disease_symptom",
+    "entity": "喉插管损伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "外伤后脑脂肪栓塞治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "外伤后脑脂肪栓塞",
+    "entity_type": "disease"
+  },
+  {
+    "text": "老年人急性非淋巴细胞白血病的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "老年人急性非淋巴细胞白血病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}可能是什么病？",
+    "intent": "symptom_disease",
+    "entity": "银屑病甲",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防髂腹股沟神经干痛？",
+    "intent": "disease_prevent",
+    "entity": "髂腹股沟神经干痛",
+    "entity_type": "disease"
+  },
+  {
+    "text": "哪些人容易得甲真菌病？",
+    "intent": "disease_easyget",
+    "entity": "甲真菌病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性肾小球肾炎用什么药？",
+    "intent": "disease_drug",
+    "entity": "急性肾小球肾炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "热衰竭",
+    "entity_type": "disease"
+  },
+  {
+    "text": "褐黄病性关节炎会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "褐黄病性关节炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "髌骨脱位",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得小儿过敏性支气管炎？",
+    "intent": "disease_cause",
+    "entity": "小儿过敏性支气管炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肘关节强直的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "肘关节强直",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿疳渴忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "小儿疳渴",
+    "entity_type": "disease"
+  },
+  {
+    "text": "岩藻糖苷贮积症有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "岩藻糖苷贮积症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "尼兹诺夫综合征要检查什么？",
+    "intent": "disease_check",
+    "entity": "尼兹诺夫综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得围术期伴发的精神障碍？",
+    "intent": "disease_easyget",
+    "entity": "围术期伴发的精神障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "冷抗体型自身免疫性溶血性贫血",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "硬斑",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}可能是什么病？",
+    "intent": "symptom_disease",
+    "entity": "胃食管反流病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "腹膜间皮瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "特发性震颤是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "特发性震颤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}可能是什么病？",
+    "intent": "symptom_disease",
+    "entity": "四肢血栓性浅静脉炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "包皮阴茎头炎的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "包皮阴茎头炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "阴茎结核是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "阴茎结核",
+    "entity_type": "disease"
+  },
+  {
+    "text": "蛋白质缺乏症用什么药？",
+    "intent": "disease_drug",
+    "entity": "蛋白质缺乏症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "心脏黏液瘤不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "心脏黏液瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得肝源性肾损害？",
+    "intent": "disease_cause",
+    "entity": "肝源性肾损害",
+    "entity_type": "disease"
+  },
+  {
+    "text": "异尖线虫病要检查什么？",
+    "intent": "disease_check",
+    "entity": "异尖线虫病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "尿路软斑症要治疗多久？",
+    "intent": "disease_lasttime",
+    "entity": "尿路软斑症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "月经量少有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "月经量少",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "小儿面部红斑侏儒综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "肝硬化男性性功能减弱综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得股后肌劳损？",
+    "intent": "disease_prevent",
+    "entity": "股后肌劳损",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得脑干损伤？",
+    "intent": "disease_cause",
+    "entity": "脑干损伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "毛囊周角化病是什么？",
+    "intent": "disease_desc",
+    "entity": "毛囊周角化病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防毛囊脓疱病？",
+    "intent": "disease_prevent",
+    "entity": "毛囊脓疱病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "喉痈的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "喉痈",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胃寒呕吐多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "胃寒呕吐",
+    "entity_type": "disease"
+  },
+  {
+    "text": "红细胞增多症视网膜病变会有什么表现？",
+    "intent": "disease_symptom",
+    "entity": "红细胞增多症视网膜病变",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得生殖细胞瘤？",
+    "intent": "disease_easyget",
+    "entity": "生殖细胞瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肺弓形体病的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "肺弓形体病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "眼眶内静脉曲张",
+    "entity_type": "disease"
+  },
+  {
+    "text": "心脾两虚有什么症状？",
+    "intent": "disease_symptom",
+    "entity": "心脾两虚",
+    "entity_type": "disease"
+  },
+  {
+    "text": "颈动脉创伤性栓塞需要做什么检查？",
+    "intent": "disease_check",
+    "entity": "颈动脉创伤性栓塞",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防溴氯菊酯中毒？",
+    "intent": "disease_prevent",
+    "entity": "溴氯菊酯中毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "眼假组织胞质菌病综合征治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "眼假组织胞质菌病综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "水肿有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "水肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "渗出性中耳炎应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "渗出性中耳炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "新生儿侵袭性大肠杆菌肠炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "口腔疾病的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "口腔疾病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "腰椎结核是什么？",
+    "intent": "disease_desc",
+    "entity": "腰椎结核",
+    "entity_type": "disease"
+  },
+  {
+    "text": "色斑的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "色斑",
+    "entity_type": "disease"
+  },
+  {
+    "text": "手足口病怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "手足口病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "心脏钝性闭合伤怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "心脏钝性闭合伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胆道肿瘤用什么药？",
+    "intent": "disease_drug",
+    "entity": "胆道肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "妊娠纹要检查什么？",
+    "intent": "disease_check",
+    "entity": "妊娠纹",
+    "entity_type": "disease"
+  },
+  {
+    "text": "巨人症及肢端肥大症的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "巨人症及肢端肥大症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}可能是什么病？",
+    "intent": "symptom_disease",
+    "entity": "脐部脐肠系膜管息肉",
+    "entity_type": "disease"
+  },
+  {
+    "text": "良性纤维组织细胞瘤需要做什么检查？",
+    "intent": "disease_check",
+    "entity": "良性纤维组织细胞瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得原发性高血压？",
+    "intent": "disease_easyget",
+    "entity": "原发性高血压",
+    "entity_type": "disease"
+  },
+  {
+    "text": "腺样体炎有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "腺样体炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "经膈肌肋间疝的食谱是什么？",
+    "intent": "disease_do_food",
+    "entity": "经膈肌肋间疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防眼底血管样条纹？",
+    "intent": "disease_prevent",
+    "entity": "眼底血管样条纹",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得食管克罗恩病？",
+    "intent": "disease_prevent",
+    "entity": "食管克罗恩病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "耳鼻咽喉创伤要检查什么？",
+    "intent": "disease_check",
+    "entity": "耳鼻咽喉创伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得输卵管狭窄？",
+    "intent": "disease_cause",
+    "entity": "输卵管狭窄",
+    "entity_type": "disease"
+  },
+  {
+    "text": "血风疮治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "血风疮",
+    "entity_type": "disease"
+  },
+  {
+    "text": "眼眶脓肿有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "眼眶脓肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了遗传性粪卟啉病要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "遗传性粪卟啉病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿大脑半球胶质瘤治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "小儿大脑半球胶质瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得科罗拉多蜱热？",
+    "intent": "disease_cause",
+    "entity": "科罗拉多蜱热",
+    "entity_type": "disease"
+  },
+  {
+    "text": "大肠恶性淋巴瘤用什么药？",
+    "intent": "disease_drug",
+    "entity": "大肠恶性淋巴瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "雷头风怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "雷头风",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得小儿单房性骨囊肿？",
+    "intent": "disease_easyget",
+    "entity": "小儿单房性骨囊肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "心脏骤停与心肺脑复苏怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "心脏骤停与心肺脑复苏",
+    "entity_type": "disease"
+  },
+  {
+    "text": "口腔颌面部皮样、表皮样囊肿能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "口腔颌面部皮样、表皮样囊肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "糖原贮积病不应该吃什么？",
+    "intent": "disease_not_food",
+    "entity": "糖原贮积病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "肺胸膜阿米巴病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "先天性肺囊肿会伴随什么疾病？",
+    "intent": "disease_acompany",
+    "entity": "先天性肺囊肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得肺炎？",
+    "intent": "disease_cause",
+    "entity": "肺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得农民肺？",
+    "intent": "disease_cause",
+    "entity": "农民肺",
+    "entity_type": "disease"
+  },
+  {
+    "text": "着色杆菌病有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "着色杆菌病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "慢性脓胸吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "慢性脓胸",
+    "entity_type": "disease"
+  },
+  {
+    "text": "硬脑膜外脓肿的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "硬脑膜外脓肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "鼻部脑膜脑膨出能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "鼻部脑膜脑膨出",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得男假两性畸形？",
+    "intent": "disease_prevent",
+    "entity": "男假两性畸形",
+    "entity_type": "disease"
+  },
+  {
+    "text": "手足心热会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "手足心热",
+    "entity_type": "disease"
+  },
+  {
+    "text": "A链球菌群感染不应该吃什么？",
+    "intent": "disease_not_food",
+    "entity": "A链球菌群感染",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "脊索瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "什么人容易得溴中毒？",
+    "intent": "disease_easyget",
+    "entity": "溴中毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "小儿色素沉着息肉综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "不稳定型心绞痛的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "不稳定型心绞痛",
+    "entity_type": "disease"
+  },
+  {
+    "text": "妇女雄激素源性秃发会伴随什么疾病？",
+    "intent": "disease_acompany",
+    "entity": "妇女雄激素源性秃发",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肛管癌能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "肛管癌",
+    "entity_type": "disease"
+  },
+  {
+    "text": "脑蛛网膜炎会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "脑蛛网膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "鼠咬热有什么症状？",
+    "intent": "disease_symptom",
+    "entity": "鼠咬热",
+    "entity_type": "disease"
+  },
+  {
+    "text": "锁喉痈忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "锁喉痈",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防鲍恩病？",
+    "intent": "disease_prevent",
+    "entity": "鲍恩病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "泪腺肿瘤的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "泪腺肿瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "泪腺分泌功能减退是什么？",
+    "intent": "disease_desc",
+    "entity": "泪腺分泌功能减退",
+    "entity_type": "disease"
+  },
+  {
+    "text": "心包炎的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "心包炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "桡神经损伤的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "桡神经损伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "绦虫病吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "绦虫病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "类固醇后脂膜炎的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "类固醇后脂膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "皮肌炎不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "皮肌炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得铜绿假单胞菌感染？",
+    "intent": "disease_prevent",
+    "entity": "铜绿假单胞菌感染",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "晒伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "痛性青紫综合征的表征有哪些？",
+    "intent": "disease_symptom",
+    "entity": "痛性青紫综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "毛细血管扩张性环状紫癜",
+    "entity_type": "disease"
+  },
+  {
+    "text": "泪腺炎有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "泪腺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得少精子症？",
+    "intent": "disease_prevent",
+    "entity": "少精子症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "玻璃体疝是什么？",
+    "intent": "disease_desc",
+    "entity": "玻璃体疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肾细胞癌治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "肾细胞癌",
+    "entity_type": "disease"
+  },
+  {
+    "text": "风秘的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "风秘",
+    "entity_type": "disease"
+  },
+  {
+    "text": "钩虫性十二指肠炎综合征怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "钩虫性十二指肠炎综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "软骨黏液样纤维瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "滑石粉尘肺会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "滑石粉尘肺",
+    "entity_type": "disease"
+  },
+  {
+    "text": "成人斯蒂尔病要检查什么？",
+    "intent": "disease_check",
+    "entity": "成人斯蒂尔病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "放射性颌骨骨髓炎的食谱是什么？",
+    "intent": "disease_do_food",
+    "entity": "放射性颌骨骨髓炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肺癌转移如何治疗？",
+    "intent": "disease_cureway",
+    "entity": "肺癌转移",
+    "entity_type": "disease"
+  },
+  {
+    "text": "有{symptom}的症状是什么病？",
+    "intent": "symptom_disease",
+    "entity": "苦夏",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "葡萄球菌中毒性休克综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "男性生殖器畸形是什么？",
+    "intent": "disease_desc",
+    "entity": "男性生殖器畸形",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "秃顶",
+    "entity_type": "disease"
+  },
+  {
+    "text": "镇静、安定、催眠药中毒的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "镇静、安定、催眠药中毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "菌血症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "广泛性焦虑障碍有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "广泛性焦虑障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}用来治疗什么？",
+    "intent": "drug_disease",
+    "entity": "嗜碱性粒细胞白血病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "角膜损伤吃什么药？",
+    "intent": "disease_drug",
+    "entity": "角膜损伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "中性粒细胞减少症怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "中性粒细胞减少症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "金属引起的口腔黏膜疾病是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "金属引起的口腔黏膜疾病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "桡骨茎突骨折",
+    "entity_type": "disease"
+  },
+  {
+    "text": "膀胱上内疝有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "膀胱上内疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小肠破裂治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "小肠破裂",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肌萎缩侧索硬化症能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "肌萎缩侧索硬化症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "全身性发疹性组织细胞增生症的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "全身性发疹性组织细胞增生症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "鼻窦炎要检查什么？",
+    "intent": "disease_check",
+    "entity": "鼻窦炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "急性酒中毒是什么？",
+    "intent": "disease_desc",
+    "entity": "急性酒中毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下口形红细胞增多症",
+    "intent": "disease_desc",
+    "entity": "口形红细胞增多症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "后天性大疱性表皮松解治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "后天性大疱性表皮松解",
+    "entity_type": "disease"
+  },
+  {
+    "text": "四氯化碳中毒有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "四氯化碳中毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了眼球后退综合征要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "眼球后退综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得气管及食管异物？",
+    "intent": "disease_prevent",
+    "entity": "气管及食管异物",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "胸部放线菌病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "神经系统结节病的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "神经系统结节病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得咽部硬结病？",
+    "intent": "disease_cause",
+    "entity": "咽部硬结病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "苏格兰脑炎多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "苏格兰脑炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "增龄性黄斑变性的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "增龄性黄斑变性",
+    "entity_type": "disease"
+  },
+  {
+    "text": "面瘫唇肿裂纹舌综合征有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "面瘫唇肿裂纹舌综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "先天性直肠肛门畸形",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "热带痉挛性轻截瘫",
+    "entity_type": "disease"
+  },
+  {
+    "text": "老年人慢性胃炎的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "老年人慢性胃炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "手术后膈疝能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "手术后膈疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "乳腺癌肉瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "苯中毒的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "苯中毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "脾劳要治疗多久？",
+    "intent": "disease_lasttime",
+    "entity": "脾劳",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么会得症瘕？",
+    "intent": "disease_cause",
+    "entity": "症瘕",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "月骨脱位",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胰腺囊腺癌的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "胰腺囊腺癌",
+    "entity_type": "disease"
+  },
+  {
+    "text": "原发性高脂蛋白血症与黄瘤增生病会有什么表现？",
+    "intent": "disease_symptom",
+    "entity": "原发性高脂蛋白血症与黄瘤增生病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿后尿道瓣膜的常用药有哪些？",
+    "intent": "disease_drug",
+    "entity": "小儿后尿道瓣膜",
+    "entity_type": "disease"
+  },
+  {
+    "text": "胸骨骨髓炎要治疗多久？",
+    "intent": "disease_lasttime",
+    "entity": "胸骨骨髓炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "先天性前尿道瓣膜用什么药？",
+    "intent": "disease_drug",
+    "entity": "先天性前尿道瓣膜",
+    "entity_type": "disease"
+  },
+  {
+    "text": "脊椎结核寒性脓肿穿入空腔脏器忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "脊椎结核寒性脓肿穿入空腔脏器",
+    "entity_type": "disease"
+  },
+  {
+    "text": "红斑型天疱疮的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "红斑型天疱疮",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肾上腺皮质功能异常伴发的精神障碍宜吃什么食物？",
+    "intent": "disease_do_food",
+    "entity": "肾上腺皮质功能异常伴发的精神障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "老年人尿毒症性肺炎多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "老年人尿毒症性肺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "四肢不用吃什么药？",
+    "intent": "disease_drug",
+    "entity": "四肢不用",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿尿道下裂不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "小儿尿道下裂",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肺囊性纤维化不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "肺囊性纤维化",
+    "entity_type": "disease"
+  },
+  {
+    "text": "视网膜血管炎的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "视网膜血管炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "甲状舌囊肿及瘘管能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "甲状舌囊肿及瘘管",
+    "entity_type": "disease"
+  },
+  {
+    "text": "颠茄碱类植物药物中毒怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "颠茄碱类植物药物中毒",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "胃、十二指肠溃疡急性穿孔",
+    "entity_type": "disease"
+  },
+  {
+    "text": "韦格纳肉芽肿性巩膜炎多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "韦格纳肉芽肿性巩膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}能治什么病？",
+    "intent": "drug_disease",
+    "entity": "血管性血友病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}可能是什么病？",
+    "intent": "symptom_disease",
+    "entity": "急性淋巴细胞性白血病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "股骨髁上骨折",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿弹性假黄瘤的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "小儿弹性假黄瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下鼓室硬化症",
+    "intent": "disease_desc",
+    "entity": "鼓室硬化症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "堪萨斯分枝杆菌感染宜吃什么食物？",
+    "intent": "disease_do_food",
+    "entity": "堪萨斯分枝杆菌感染",
+    "entity_type": "disease"
+  },
+  {
+    "text": "结核性葡萄膜炎的原因是什么？",
+    "intent": "disease_cause",
+    "entity": "结核性葡萄膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "性功能异常伴发的精神障碍治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "性功能异常伴发的精神障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "颅骨骨折多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "颅骨骨折",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下表皮痣",
+    "intent": "disease_desc",
+    "entity": "表皮痣",
+    "entity_type": "disease"
+  },
+  {
+    "text": "左心室恶性施万瘤需要做什么检查？",
+    "intent": "disease_check",
+    "entity": "左心室恶性施万瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿过敏性紫瘢多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "小儿过敏性紫瘢",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防胎膜早破？",
+    "intent": "disease_prevent",
+    "entity": "胎膜早破",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下嗜酸粒细胞增多症",
+    "intent": "disease_desc",
+    "entity": "嗜酸粒细胞增多症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下扁平足",
+    "intent": "disease_desc",
+    "entity": "扁平足",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了硬脑膜下血肿要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "硬脑膜下血肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "妊娠合并系统性红斑狼疮的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "妊娠合并系统性红斑狼疮",
+    "entity_type": "disease"
+  },
+  {
+    "text": "旋前圆肌综合征不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "旋前圆肌综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "眼球穿通伤要治疗多久？",
+    "intent": "disease_lasttime",
+    "entity": "眼球穿通伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "尿毒症性心肌病怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "尿毒症性心肌病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了骨软骨病要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "骨软骨病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "多器官功能障碍综合征的简介是什么？",
+    "intent": "disease_desc",
+    "entity": "多器官功能障碍综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "平滑骨肉瘤治愈的概率是多少？",
+    "intent": "disease_cureprob",
+    "entity": "平滑骨肉瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "金属性变色的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "金属性变色",
+    "entity_type": "disease"
+  },
+  {
+    "text": "黄体萎缩不全忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "黄体萎缩不全",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是怎么回事？",
+    "intent": "symptom_disease",
+    "entity": "前房积血与青光眼",
+    "entity_type": "disease"
+  },
+  {
+    "text": "上颌前突怎么预防？",
+    "intent": "disease_prevent",
+    "entity": "上颌前突",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肝火眩晕多长时间能好？",
+    "intent": "disease_lasttime",
+    "entity": "肝火眩晕",
+    "entity_type": "disease"
+  },
+  {
+    "text": "新生儿呕吐的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "新生儿呕吐",
+    "entity_type": "disease"
+  },
+  {
+    "text": "阴道美丽筒线虫病怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "阴道美丽筒线虫病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "农药中毒所致的精神障碍的食谱是什么？",
+    "intent": "disease_do_food",
+    "entity": "农药中毒所致的精神障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿周期性正常血钾性麻痹不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "小儿周期性正常血钾性麻痹",
+    "entity_type": "disease"
+  },
+  {
+    "text": "脉络膜缺血怎么治疗？",
+    "intent": "disease_cureway",
+    "entity": "脉络膜缺血",
+    "entity_type": "disease"
+  },
+  {
+    "text": "单纯疱疹病毒性角膜炎有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "单纯疱疹病毒性角膜炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "外阴硬化性苔藓的治疗周期是多久？",
+    "intent": "disease_lasttime",
+    "entity": "外阴硬化性苔藓",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "老年人腔隙性脑梗死",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "脊膜膨出与脊膜脊髓膨出",
+    "entity_type": "disease"
+  },
+  {
+    "text": "懒惰白细胞综合征的治疗方法有哪些？",
+    "intent": "disease_cureway",
+    "entity": "懒惰白细胞综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "异色性虹膜睫状体炎的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "异色性虹膜睫状体炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得肝豆状核变性伴发的精神障碍？",
+    "intent": "disease_cause",
+    "entity": "肝豆状核变性伴发的精神障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "尿道结石会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "尿道结石",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}是检查什么的？",
+    "intent": "check_disease",
+    "entity": "输血后肝炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防小儿食积？",
+    "intent": "disease_prevent",
+    "entity": "小儿食积",
+    "entity_type": "disease"
+  },
+  {
+    "text": "如何避免得风湿骨病？",
+    "intent": "disease_prevent",
+    "entity": "风湿骨病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "包虫病的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "包虫病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "亚急性皮肤红斑狼疮有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "亚急性皮肤红斑狼疮",
+    "entity_type": "disease"
+  },
+  {
+    "text": "突发性聋会伴随什么疾病？",
+    "intent": "disease_acompany",
+    "entity": "突发性聋",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下渗出性多形红斑",
+    "intent": "disease_desc",
+    "entity": "渗出性多形红斑",
+    "entity_type": "disease"
+  },
+  {
+    "text": "哪些人容易得腓骨肌萎缩症？",
+    "intent": "disease_easyget",
+    "entity": "腓骨肌萎缩症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}是什么病？",
+    "intent": "symptom_disease",
+    "entity": "老烂腿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "韦尼克脑病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "氨基酸代谢病的症状是什么？",
+    "intent": "disease_symptom",
+    "entity": "氨基酸代谢病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得外隐斜？",
+    "intent": "disease_cause",
+    "entity": "外隐斜",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿室间隔缺损吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "小儿室间隔缺损",
+    "entity_type": "disease"
+  },
+  {
+    "text": "子宫息肉需要做什么检查？",
+    "intent": "disease_check",
+    "entity": "子宫息肉",
+    "entity_type": "disease"
+  },
+  {
+    "text": "大泡性角膜病变用什么药？",
+    "intent": "disease_drug",
+    "entity": "大泡性角膜病变",
+    "entity_type": "disease"
+  },
+  {
+    "text": "拉沙热吃什么药？",
+    "intent": "disease_drug",
+    "entity": "拉沙热",
+    "entity_type": "disease"
+  },
+  {
+    "text": "哮病应该吃什么？",
+    "intent": "disease_do_food",
+    "entity": "哮病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能查出什么病？",
+    "intent": "check_disease",
+    "entity": "冻伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "楔状缺损能治好吗？",
+    "intent": "disease_cureprob",
+    "entity": "楔状缺损",
+    "entity_type": "disease"
+  },
+  {
+    "text": "介绍一下莱姆心脏炎",
+    "intent": "disease_desc",
+    "entity": "莱姆心脏炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿动脉导管未闭有什么现象？",
+    "intent": "disease_symptom",
+    "entity": "小儿动脉导管未闭",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "主动脉瘤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "人为性皮炎的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "人为性皮炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{check}能诊断什么病？",
+    "intent": "check_disease",
+    "entity": "特发性腹膜后纤维化",
+    "entity_type": "disease"
+  },
+  {
+    "text": "窦性组织细胞增生伴巨大淋巴结病有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "窦性组织细胞增生伴巨大淋巴结病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "惊恐症会并发什么病？",
+    "intent": "disease_acompany",
+    "entity": "惊恐症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "肉芽肿性前列腺炎忌吃什么？",
+    "intent": "disease_not_food",
+    "entity": "肉芽肿性前列腺炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了门静脉血栓形成要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "门静脉血栓形成",
+    "entity_type": "disease"
+  },
+  {
+    "text": "直肠损伤会伴随什么疾病？",
+    "intent": "disease_acompany",
+    "entity": "直肠损伤",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "肾动脉狭窄",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿肺栓塞的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "小儿肺栓塞",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{drug}的作用是什么？",
+    "intent": "drug_disease",
+    "entity": "五软",
+    "entity_type": "disease"
+  },
+  {
+    "text": "有{symptom}的症状是什么病？",
+    "intent": "symptom_disease",
+    "entity": "颅内出血",
+    "entity_type": "disease"
+  },
+  {
+    "text": "汗孔周围炎及多发性汗腺脓肿需要做什么检查？",
+    "intent": "disease_check",
+    "entity": "汗孔周围炎及多发性汗腺脓肿",
+    "entity_type": "disease"
+  },
+  {
+    "text": "痴呆不能吃什么？",
+    "intent": "disease_not_food",
+    "entity": "痴呆",
+    "entity_type": "disease"
+  },
+  {
+    "text": "复发性疱疹的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "复发性疱疹",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防髌骨脱位？",
+    "intent": "disease_prevent",
+    "entity": "髌骨脱位",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防小儿贾第虫病？",
+    "intent": "disease_prevent",
+    "entity": "小儿贾第虫病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "表演型人格障碍不应该吃什么？",
+    "intent": "disease_not_food",
+    "entity": "表演型人格障碍",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得颈椎半椎体畸形？",
+    "intent": "disease_cause",
+    "entity": "颈椎半椎体畸形",
+    "entity_type": "disease"
+  },
+  {
+    "text": "切除术后内疝是怎么引起的？",
+    "intent": "disease_cause",
+    "entity": "切除术后内疝",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小儿甲状腺功能亢进症的检查项目有哪些？",
+    "intent": "disease_check",
+    "entity": "小儿甲状腺功能亢进症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "怎么预防炭疽病？",
+    "intent": "disease_prevent",
+    "entity": "炭疽病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "雅司病有什么并发症？",
+    "intent": "disease_acompany",
+    "entity": "雅司病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了鲍恩病会怎么样？",
+    "intent": "disease_symptom",
+    "entity": "鲍恩病",
+    "entity_type": "disease"
+  },
+  {
+    "text": "产后痉症治好的几率有多大？",
+    "intent": "disease_cureprob",
+    "entity": "产后痉症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "为什么会得低颅压综合征？",
+    "intent": "disease_cause",
+    "entity": "低颅压综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "脓疱疮的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "脓疱疮",
+    "entity_type": "disease"
+  },
+  {
+    "text": "有{symptom}的症状是什么病？",
+    "intent": "symptom_disease",
+    "entity": "腘动脉陷迫综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "小肠吸收不良综合征的易感人群是什么？",
+    "intent": "disease_easyget",
+    "entity": "小肠吸收不良综合征",
+    "entity_type": "disease"
+  },
+  {
+    "text": "幼年型关节强硬性脊椎炎会伴随什么疾病？",
+    "intent": "disease_acompany",
+    "entity": "幼年型关节强硬性脊椎炎",
+    "entity_type": "disease"
+  },
+  {
+    "text": "{symptom}可能是什么病？",
+    "intent": "symptom_disease",
+    "entity": "天冬氨酰葡萄糖胺尿症",
+    "entity_type": "disease"
+  },
+  {
+    "text": "输卵管阻塞吃什么好？",
+    "intent": "disease_do_food",
+    "entity": "输卵管阻塞",
+    "entity_type": "disease"
+  },
+  {
+    "text": "得了卵巢卵黄囊瘤要忌口什么？",
+    "intent": "disease_not_food",
+    "entity": "卵巢卵黄囊瘤",
+    "entity_type": "disease"
+  }
+]
