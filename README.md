@@ -12,7 +12,7 @@
 
 ## 📌 项目概述
 
-QASystemOnMedicalKG 是一个完整的**医药领域知识图谱问答系统**，包含两代技术架构：
+Multilevel Decomposition Medical Agent 是一个完整的**医药领域知识图谱问答系统**，包含两代技术架构：
 
 1. **传统规则问答** — 基于 Aho-Corasick 多模式匹配实体识别 + Neo4j Cypher 查询，无需模型，纯规则驱动
 2. **LLM+RAG 智能问答** — 以知识图谱为检索源，构建医疗知识三元组作为上下文，调用 LLM 生成更自然的答案
