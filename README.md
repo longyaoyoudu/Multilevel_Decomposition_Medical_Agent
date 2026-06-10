@@ -1,4 +1,4 @@
-# QASystemOnMedicalKG — 医药领域知识图谱问答系统
+# Multilevel Decomposition Medical Agent Based on LLM and Knowledge Graph — 医药领域知识图谱问答系统
 
 > 从零构建以疾病为中心的医药知识图谱，支持规则问答 + LLM+RAG 智能问答双模式
 
